@@ -1,8 +1,10 @@
 .center {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .button {
+  font-weight: bold;
   background-color: black;
   border: none;
   color: #BA1818;/* red */
@@ -10,18 +12,20 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
-  transition-duration: 0.4s;
+  transition-duration: 0.3s;
   cursor: pointer;
 }
 
 .button1 {
+  font-weight: bold;
   background-color:  black;
   color: #BA1818; /* red */
 }
 
 .button1:hover {
+  font-weight: bold;
   background-color: #8CC71B; /* green */
   color: black;
 }
